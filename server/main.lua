@@ -11,6 +11,10 @@ local FivemerrApiToken = ''
 local bannedCharacters = { '%', '$', ';' }
 local TWData = {}
 
+local function SafeAppName(app)
+    return app:gsub("[^%w_]", "")
+end
+
 -- Functions
 
 local function GetOnlineStatus(number)
