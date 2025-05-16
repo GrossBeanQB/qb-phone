@@ -367,3 +367,12 @@ $(document).on('click', '#whatsapp-openedchat-message-extras', function(e){
         });
     }
 });
+
+window.addEventListener("focusin", function() {
+    $.post("https://qb-phone/FocusInput", JSON.stringify({}));
+});
+
+window.addEventListener("focusout", function() {
+    $.post("https://qb-phone/BlurInput", JSON.stringify({}));
+});
+
