@@ -1,6 +1,16 @@
 # qb-phone
 Advanced Phone for QB-Core Framework :iphone:
 
+GrossBeanQB fork with qb-phone enchantments.
+
+You are now able to move when using the phone.
+
+When you are typing in your phone your character will stop moving and when you write a message it will not trigger hotbar/inventory/movement as in WASD and other characters on keyboard.
+
+Also added a function which doesn't allow you to hold a gun while holding the phone and vice versa.
+
+
+
 # License
 
     QBCore Framework
